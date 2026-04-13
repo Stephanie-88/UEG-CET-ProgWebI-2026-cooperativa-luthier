@@ -11,7 +11,7 @@ async function bootstrap() {
     app.useGlobalPipes(new ValidationPipe({ transform: true, whitelist: true }));
 
     const config = new DocumentBuilder()
-        .setTitle('Cooperativa de Luthiers API')
+        .setTitle('Cooperativa de Luthiers Lumiere')
         .setDescription('API RESTful para gerenciamento de luthiers e instrumentos em reparo. Arquitetura Hexagonal + SRP.')
         .setVersion('1.0')
         .addTag('Luthiers', 'Operações CRUD para mestres luthiers e suas oficinas')
